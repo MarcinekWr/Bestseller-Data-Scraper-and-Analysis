@@ -5,4 +5,6 @@ I've decided experimentally to open my own online store. To reach a wide audienc
 ## Plan of this project: 
 ![Bez tytułu](https://github.com/user-attachments/assets/0902169d-8be4-4201-8c42-2ac023b00573)
 
-## First step
+## What i gain from this project?
+
+Firstly, I have learned web scraping techniques using popular Python libraries like BeautifulSoup and Selenium. I now understand how to navigate and extract data from HTML documents, and how to handle websites with dynamically rendered content using tools like Selenium. I have also gained experience in data cleaning and preparation by using Pandas and Numpys. Data storage  
