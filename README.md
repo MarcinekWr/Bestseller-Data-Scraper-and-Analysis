@@ -14,7 +14,7 @@ In the code, I made sure to add comments so that everything is clear.
 
 ## Future steps
 
-Currently, I'm waiting to scrape one month of data to do a more complex analysis.
-The next idea is to add a price tracker feature. Users can input a target price, and since prices are quite dynamic and can change seasonally, the system will inform them via email when the price drops below or exceeds their desired price.
-To make this more user-friendly, I can create a web interface using Flask where users can select the products they want to track and generate reports. Additionally, this interface could allow users to set their desired price thresholds for notifications and view the latest price trends and analysis.
+*Currently, I'm waiting to scrape one month of data to do a more complex analysis.
+*The next idea is to add a price tracker feature. Users can input a target price, and since prices are quite dynamic and can change seasonally, the system will inform them via email when the price drops below or exceeds their desired price.
+*To make this more user-friendly, I can create a web interface using Flask where users can select the products they want to track and generate reports. Additionally, this interface could allow users to set their desired price thresholds for notifications and view the latest price trends and analysis.
 
