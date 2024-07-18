@@ -49,10 +49,6 @@ def SCRAPER_2(URL):
 
     return soup
 
-
-def add_dot(s):
-    return s[0] + '.' + s[1:]
-
 def save_webpage(URL):
     soup = SCRAPER_2(URL)
 
