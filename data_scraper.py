@@ -181,7 +181,7 @@ def clearing_data(path):
 
 
 # Path where the excel files gonna be saved
-path = r'path_name'
+path = r'C:\Users\suzum\PycharmProjects\pythonProject15\Web_scraping\Amazon_scraping\Scraping_webpage'
 today = str(datetime.date.today())
 today_import = os.path.join(path, today)
 print(fr"Data scraping amazon bestsellers {today}")
