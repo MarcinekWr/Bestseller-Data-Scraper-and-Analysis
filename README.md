@@ -21,9 +21,9 @@ In the code, I made sure to add comments so that everything is clear.
 ## Raport in Power BI
 
 
-## Quick 
+## Quick overview 
 
-After successfully installing libraries, we run a data_scraper.py code but we need to make sure that we change variable path = '' to a location where files should be saved and file the database connection parameters
+After successfully installing the libraries, we need to run the data_scraper.py code. However, make sure to change the variable path = '' to the location where the files should be saved, and fill in the database connection parameters. Note that it only works on the Polish Amazon website because the cleaning and filtering is specified to this language. However, with a few changes, it can also work for different regions websites.
 
 Database parameters
 
@@ -36,5 +36,7 @@ Path
 When we run a script the command window if everything went successfully should look like this
 
 ![run](https://github.com/user-attachments/assets/e08b216b-b8d8-440b-bc75-b91a084086c9)
+
+When the code finishes, we should have new daily scraped data in our database. Now we can take a look at the automatically generated report with Power BI.
 
 
