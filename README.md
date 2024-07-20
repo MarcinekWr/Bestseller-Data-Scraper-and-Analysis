@@ -11,15 +11,6 @@ Firstly, I have learned web scraping techniques using popular Python libraries l
 
 ## Code
 In the code, I made sure to add comments so that everything is clear.
-## Future steps
-
-* Currently, I'm waiting to scrape one month of data to do a more complex analysis.
-* The next idea is to add a price tracker feature. Users can input a target price, and since prices are quite dynamic and can change seasonally, the system will inform them via email when the price drops below or exceeds their desired price.
-* To make this more user-friendly, I can create a web interface using Flask where users can select the products they want to track and generate reports. Additionally, this interface could allow users to set their desired price thresholds for notifications and view the latest price trends and analysis.
-
-
-## Raport in Power BI
-
 
 ## Quick overview 
 
@@ -33,10 +24,29 @@ Path
 
 ![3](https://github.com/user-attachments/assets/7a992a37-f36f-4350-8885-eda573c18e37)
 
-When we run a script the command window if everything went successfully should look like this
+When we run the script, the command window should look like this. I used the tqdm function, which shows the progress and estimated time to complete the scraping process.
 
 ![run](https://github.com/user-attachments/assets/e08b216b-b8d8-440b-bc75-b91a084086c9)
 
 When the code finishes, we should have new daily scraped data in our database. Now we can take a look at the automatically generated report with Power BI.
+
+## Raport in Power BI
+
+I created the main page where we can see the popularity of each category, measured by the ratings of the category's products. As a second measure, I used the "measure of earnings," which is calculated as ratings multiplied by price. Since we cannot see how many products are sold on Amazon. We can filter this data by each day or a range of days to see which category is the bestseller.
+
+We can dynamically click on each column of the chart to see more detailed information.
+![image](https://github.com/user-attachments/assets/0e09bc3c-4287-44b6-b4f0-2e21aebe73ed)
+
+On the second page, we can choose the product category we are interested in, such as Video Games, which is one of the most popular categories. We can then view 50 products with more detailed information. For example, the Nintendo Switch console.
+
+![image](https://github.com/user-attachments/assets/b6ca50e4-6377-41d6-a06f-9cf568ff3fbc)
+
+
+## Future steps
+
+* Currently, I'm waiting to scrape one month of data to do a more complex analysis.
+* The next idea is to add a price tracker feature. Users can input a target price, and since prices are quite dynamic and can change seasonally, the system will inform them via email when the price drops below or exceeds their desired price.
+* To make this more user-friendly, I can create a web interface using Flask where users can select the products they want to track and generate reports. Additionally, this interface could allow users to set their desired price thresholds for notifications and view the latest price trends and analysis.
+
 
 
