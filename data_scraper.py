@@ -28,7 +28,7 @@ def SCRAPER_2(URL):
 
     # Open URL
     driver.get(URL)
-    # driver.set_window_size(1500, 800)
+    driver.set_window_size(1500, 800)
     time.sleep(5)
 
     # Clicking the accept button for the cookie
@@ -181,12 +181,13 @@ def clearing_data(path):
 
 
 # Path where the excel files gonna be saved
-path = r'C:\Users\suzum\PycharmProjects\pythonProject15\Web_scraping\Amazon_scraping\Scraping_webpage'
+path = r''
 today = str(datetime.date.today())
 today_import = os.path.join(path, today)
 print(fr"Data scraping amazon bestsellers {today}")
 # Call the function to get the category URLs
 urls = cathegory()
+# print(urls)
 
 print("Scraping data and saving each category to the excel file.")
 
