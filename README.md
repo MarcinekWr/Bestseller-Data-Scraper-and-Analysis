@@ -25,8 +25,13 @@ In the code, I made sure to add comments so that everything is clear.
 
 After successfully installing libraries, we run a data_scraper.py code but we need to make sure that we change variable path = '' to a location where files should be saved and file the database connection parameters
 
-Database parameters and path 
-<p align="center">
-![database](https://github.com/user-attachments/assets/eef22a15-3752-4f5f-a590-c35b02ea6649)  ![3](https://github.com/user-attachments/assets/7a992a37-f36f-4350-8885-eda573c18e37)
-</p>
+Database parameters
+![database](https://github.com/user-attachments/assets/eef22a15-3752-4f5f-a590-c35b02ea6649)  
+
+Path
+![3](https://github.com/user-attachments/assets/7a992a37-f36f-4350-8885-eda573c18e37)
+
+When we run a script the command window if everything went successfully should look like this
+![run](https://github.com/user-attachments/assets/e08b216b-b8d8-440b-bc75-b91a084086c9)
+
 
